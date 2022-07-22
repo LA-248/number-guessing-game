@@ -48,7 +48,6 @@ function playRound(guess) {
 
     if (isNaN(guess)|| guess < 1 || guess > 100) {
         gameTitle.appendChild(wrongInput);
-        guessResult.textContent = " ";
         numberOfGuessesUsed--;
     
     } if (guess === randomNumber) {
